@@ -25,3 +25,13 @@ go build
 ./caddy
 
 На экран будет выведена справочная информация о Caddy с несколькими разделами:
+![alt text](https://github.com/tbogolyubov/Homework-1-System-Software/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png)
+![alt text](https://github.com/tbogolyubov/Homework-1-System-Software/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png)
+![alt text](https://github.com/tbogolyubov/Homework-1-System-Software/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA3.png)
+
+Выполним команду ./caddy run для запуска сервера. Caddy запустит localhost:2019. 
+Перейдем по указанному адресу localhost в браузере. На экране увидим GET запрос с локального хоста на порт 2019 и некоторую информацию лога.
+![alt text](https://github.com/tbogolyubov/Homework-1-System-Software/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA4.jpg)
+
+Завершим работу сервера, отправив сигнал прерывания с помощью комбинации клавиш Ctrl + C. Увидим информацию, описывающую процесс завершения работы сервера Caddy.
+![alt text](https://github.com/tbogolyubov/Homework-1-System-Software/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA5.png)
